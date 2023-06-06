@@ -1,0 +1,22 @@
+POST /products/create HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+{   
+    "nome": "Celular",
+    "descriçao": "Iphone 114",
+    "preco": "4000"
+}
+
+###
+GET /products/list HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+###
+GET /products/show/235496ca-b5a5-47b6-9481-2fbe9259bfc7 HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488

@@ -1,0 +1,21 @@
+POST /demands/create HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+{   
+    "usuario_id":"bc0a789b-f165-4726-9b01-f5ca3d056010",
+    "produto_id": "1746cd19-0f2c-4a39-a4fc-6665bb337e81"
+}
+
+###
+GET /demand/list HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+###
+GET /demands/show/d5ab69ad-626a-42e4-8300-fd4f1fb31388 HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488

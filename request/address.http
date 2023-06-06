@@ -1,0 +1,24 @@
+POST /address/create HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+{
+    "rua": "Avenida Paulista",    
+    "numero" : "121" ,    
+    "cidade": "sp" ,  
+    "estado":"sp"   , 
+    "usuario_id": "00306b73-e6c6-48d4-84f8-a05450c4e782"
+}
+
+###
+GET /address/list HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+###
+GET /address/show/f99fd50d-9923-4523-8ceb-dadb0e07739d HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488

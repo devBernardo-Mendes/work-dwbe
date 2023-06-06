@@ -1,0 +1,24 @@
+POST /assessments/create HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+{   
+    "nota": 1,
+    "comentario": "pessima qualidade",
+    "usuario_id":  "f2949ff4-214c-4d40-bc1a-f70345bde4ae",
+    "produto_id": "cfdd11ff-48fd-4962-87c9-850f5c85e897"
+
+}
+
+###
+GET /assessments/list HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
+
+###
+GET /assessments/show/f702a571-6d18-4560-b7d7-8c949e81c422 HTTP/1.1
+Content-Type: application/json
+Host:localhost:3000
+Content-Length: 2488
