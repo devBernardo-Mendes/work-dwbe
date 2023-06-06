@@ -11,7 +11,7 @@ Produto: Representa o produto com nome, descrição e preço.
 Pedido: Representa um pedido de um ou mais produtos.
 Endereço: Representa o endereço do usuário.
 Avaliação: Representa a classificação do produto pelo usuário.
-Abaixo está um diagrama simplificado de modelo de entidade-relacionamento (ER) para o aplicativo:
+Abaixo está um diagrama simplificado de modelo de entidade/relacionamento para o aplicativo:
 
 
                   |     Usuário  |
