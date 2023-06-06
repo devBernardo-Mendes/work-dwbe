@@ -1,6 +1,6 @@
 # work-dwbe 
 
-O aplicativo é uma API desenvolvida usando Node.js, Express.js e Sequelize ORM para fornecer endpoints CRUD para 5 entidades de negócios diferentes. O objetivo do aplicativo é fornecer uma interface para gerenciamento de usuários, produtos, pedidos, endereços e avaliações.
+O aplicativo é uma API desenvolvida usando Node.js, Express.js para fornecer endpoints CRUD para 5 entidades de negócios diferentes. O objetivo do aplicativo é fornecer uma interface para gerenciamento de usuários, produtos, pedidos, endereços e avaliações.
 
 Através da API é possível criar, ler, atualizar e deletar registros em cada uma dessas entidades. Por exemplo, você pode criar um novo usuário com nome, e-mail, senha e idade, ou atualizar informações sobre um produto existente, como nome, descrição e preço.
 
