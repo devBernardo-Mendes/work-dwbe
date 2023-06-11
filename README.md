@@ -1,7 +1,7 @@
 # work-dwbe 
 Integrantes do grupo: Bernardo Reis, Arthur Santos, Lucas Rodrigues  Santos, Breno Jose, Ryan Leite
 
-* Como usar a API: Usar extessao REST CLIENT ou usar insomnia, se usar o REST ir na pasta request e utilizar os metodos ja feito! 
+* Como usar a API: Usar extensão REST CLIENT ou usar insomnia, se usar o REST ir na pasta request e utilizar os metodos ja feito! 
 
 O aplicativo é uma API desenvolvida usando Node.js, Express.js para fornecer endpoints CRUD para 5 entidades de negócios diferentes. O objetivo do aplicativo é fornecer uma interface para gerenciamento de usuários, produtos, pedidos, endereços e avaliações.
 
